@@ -1,0 +1,9 @@
+{
+  "index": 1,
+  "showOnMenu": true,
+  "hideOnBreadcrumb": false,
+  "menu": {
+    "title": "源应用管理",
+    "icon": "el-icon-message"
+  }
+}

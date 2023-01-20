@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "name": "base-front-vue2js",
+  "description": "base-front-vue2js",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "prettier": "npx prettier --write .",
+    "start": "vue-cli-service serve --mode dev",
+    "build": "NODE_ENV=production vue-cli-service build --mode prod"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.20.6",
+    "@me-tool/eslint-prettier-config": "^1.0.8",
+    "@vueuse/core": "^8.9.1",
+    "axios": "^0.27.2",
+    "element-ui": "^2.15.9",
+    "eventemitter3": "^4.0.7",
+    "vue": "^2.7.7",
+    "vue-router": "^3.5.4",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

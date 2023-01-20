@@ -1,0 +1,9 @@
+{
+  "index": 1,
+  "showOnMenu": false,
+  "hideOnBreadcrumb": false,
+  "menu": {
+    "title": "源应用成员",
+    "icon": ""
+  }
+}

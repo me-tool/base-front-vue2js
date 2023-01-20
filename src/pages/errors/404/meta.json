@@ -1,0 +1,10 @@
+{
+  "index": 20,
+  "showOnMenu": true,
+  "hideOnBreadcrumb": false,
+  "menu": {
+    "title": "404",
+    "activeMenu": "/errors",
+    "icon": "el-icon-minus"
+  }
+}

@@ -1,0 +1,11 @@
+# 忽略工件：
+.freedom
+build
+dist
+doc
+doc.md
+mock2easy
+nginx
+public
+# 忽略所有 HTML 文件：
+*.md

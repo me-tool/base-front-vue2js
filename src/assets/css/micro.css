@@ -1,0 +1,15 @@
+.el-range-editor--mini .el-range__icon {
+  height: 100%;
+  line-height: 22px;
+}
+
+.el-range-editor--mini .el-range-separator {
+  height: 100%;
+  line-height: 22px;
+  width: auto;
+}
+
+.el-date-editor .el-range__close-icon {
+  height: 100%;
+  line-height: 22px;
+}

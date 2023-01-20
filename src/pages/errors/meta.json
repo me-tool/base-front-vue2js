@@ -1,0 +1,9 @@
+{
+  "index": 9999,
+  "showOnMenu": false,
+  "hideOnBreadcrumb": true,
+  "menu": {
+    "title": "错误列表",
+    "icon": "el-icon-error"
+  }
+}
