@@ -209,6 +209,7 @@
                   if (!resp.success) {
                     return this.$message.error(`编辑失败`);
                   }
+                  this.$message.success(`编辑成功`);
                   this.dialogVisible = false;
                   this.getList();
                 })
@@ -219,6 +220,7 @@
                   if (!resp.success) {
                     return this.$message.error(`保存失败`);
                   }
+                  this.$message.success(`新增成功`);
                   this.dialogVisible = false;
                   this.getList();
                 })

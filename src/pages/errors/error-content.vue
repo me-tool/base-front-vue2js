@@ -21,9 +21,7 @@
     },
     methods: {
       backHome() {
-        this.$router.push({
-          name: 'home',
-        });
+        this.$router.push('/');
       },
     },
   };

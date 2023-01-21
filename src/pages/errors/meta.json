@@ -1,6 +1,6 @@
 {
-  "index": 9999,
-  "showOnMenu": false,
+  "index": 30,
+  "showOnMenu": true,
   "hideOnBreadcrumb": true,
   "menu": {
     "title": "错误列表",

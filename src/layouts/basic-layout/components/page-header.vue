@@ -17,13 +17,13 @@
               <div style="text-align: center; font-size: 12px; color: #999999">{{ item.desc }}</div>
             </div>
           </div>
-          <span slot="reference" class="menuList">U+产品</span>
+          <span slot="reference" class="menuList">前端模板</span>
         </el-popover>
       </div>
     </div>
 
     <div class="page-header__right">
-      <el-button plain @click="toWorkbench" style="margin-right: 15px">工作台</el-button>
+      <el-button plain @click="toWorkbench" style="margin-right: 15px">个人中心</el-button>
       <el-dropdown @command="handleCommand">
         <span class="page-header__right-user">
           <img class="page-header__right-user__img" :src="avatarUrl" />
@@ -166,6 +166,7 @@
     width: 116px;
     // height: 26px;
     margin: 0 8px 0 16px;
+    cursor: pointer;
   }
 
   .page-header__right {

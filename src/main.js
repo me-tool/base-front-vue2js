@@ -1,15 +1,12 @@
 import Vue from 'vue';
 import ElementUI, { Message, Loading } from 'element-ui';
-import SideMenu from '@jdu/side-menu';
-import breadCrumb from '@jdu/bread-crumb';
-import TableExtra from '@jdu/table-extra';
-import FormSearch from '@jdu/form-search';
 import loading from '@/utils/loading';
 
 import { isMicro } from './constants';
 import App from './App';
 import router from './router';
 import store from './store';
+import useComponents from '../vendor';
 
 import('./style/common.less');
 import('./style/mixin.less');
@@ -17,12 +14,8 @@ import('./style/style.less');
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
-Vue.use(SideMenu);
-Vue.use(TableExtra);
-Vue.use(FormSearch);
-Vue.use(breadCrumb);
 Vue.use(loading);
-
+useComponents(Vue);
 Vue.prototype.$message = Message;
 Vue.prototype.$loading = Loading;
 

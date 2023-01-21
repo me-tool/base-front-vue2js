@@ -9,37 +9,13 @@ export const formOptions = [
     value: '',
   },
   {
-    key: 'type',
-    label: '应用类型',
-    placeholder: '应用类型',
-    type: 'select',
-    value: '',
-    options: {
-      list: [{ code: '', desc: '全部' }, ...enum2Options('appTypeEnum')],
-      label: 'desc',
-      value: 'code',
-    },
-  },
-  {
-    key: 'envCode',
-    label: '环境',
-    placeholder: '环境',
-    type: 'select',
-    value: '',
-    options: {
-      list: [{ code: '', desc: '全部' }, ...enum2Options('envEnum')],
-      label: 'desc',
-      value: 'code',
-    },
-  },
-  {
     key: 'status',
     label: '系统状态',
     placeholder: '系统状态',
     type: 'select',
     value: '',
     options: {
-      list: [{ code: '', desc: '全部' }, ...enum2Options('appStatusEnum')],
+      list: [{ code: '', desc: '全部' }, ...enum2Options('statusEnum')],
       label: 'desc',
       value: 'code',
     },

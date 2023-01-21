@@ -11,3 +11,5 @@ export const updateSourceAppMember = (params, pathParams) =>
   axiosInstance.put('/api/app/:appId/member/:id', params, { pathParams }); // 编辑成员到源应用
 export const deleteSourceAppMember = (params, pathParams) =>
   axiosInstance.delete('/api/app/:appId/member/:id', params, { pathParams }); // 删除成员到源应用
+export const sourceAppCurrent = (params) =>
+  axiosInstance.get('/api/app/:id/current', null, { pathParams: { id: params.id } }); // 判断当前用户是否是源应用的管理员
