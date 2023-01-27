@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import ElementUI, { Message, Loading } from 'element-ui';
-import loading from '@/utils/loading';
+import useComponents from '@me-tool/components';
 
+import loading from '@/utils/loading';
 import { isMicro } from './constants';
 import App from './App';
 import router from './router';
 import store from './store';
-import useComponents from '../vendor';
 
 import('./style/common.less');
 import('./style/mixin.less');
